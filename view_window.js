@@ -18,6 +18,8 @@ function setViewWindow(viewSelector) {
     }
     selector.appendChild(newSelector);
   }
+
+  showView(views, views[0]);
 }
 function showView(views, targetView) {
   for (var i = 0; i < views.length; i++) {
